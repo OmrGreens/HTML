@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h2>Registeration Form</h2>
+    <fieldset>
+    <form action="loginpage.html" method="get" target="_blank" autocomplete="On" enctype="multipart/form-data">
+
+            <legend>Enter Your Username&Passowrd</legend>
+      <div>
+        <label for="username" >Username</label>
+        <input type="text" name = "username" id="username"  value="Anzil" maxlength="10" placeholder="username" required>
+      </div>
+
+      <div>
+        <label for ="password">Password</label>
+        <input type="password" name="password" id="password" maxlength="8" required >
+      </div>
+
+    
+      <div>
+        <label for="emailAddress">Email</label>
+        <input type="email" name="emailAddress" id="emailAddress" autofocus>
+      </div>
+
+      <div>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" name="DOB" id="DOB"   >
+    </div>
+
+      <h5>Hobbies</h5>
+      <div>
+       
+        <input type="checkbox" name="Hobbies" id="Playing games">
+        <label for="Playing games">Playing GAMES</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="Hobbies" id="Reading Books">
+        <label for="Reading Books">Reading Books</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="Hobbies" id="Music">
+        <label for="Music">Listening Music</label>
+      </div>
+      <h5>Gender</h5>
+        <div>
+            <input type="radio" name="Gender" id="male">
+            <label for="male">Male</label>
+        </div>
+
+        <div>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+        </div>
+
+        <div>
+
+            <label for="About">About U</label>
+            <textarea name="about " id="About" cols="10" rows="10">Tell about you in 100 words</textarea>
+
+
+        </div>
+
+        <div>
+            <label for="Country">Country</label>
+            <select name="Country" id="Country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Cannada">Cannada</option>
+
+
+            </select>
+
+
+
+        </div>
+
+        <div>
+            <label for="browsers">Bowser</label>
+            <input list="browsers">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+
+
+
+
+        </div>
+
+
+
+
+      <div>
+
+       <input type="file" >
+    </div>
+       <div>
+       <input type="image" src="Links/Images/download.png" width="100px" height="100px">
+       <input type="reset"
+      </div>
+    </fieldset>
+    </form>
+  </body>
+</html>
